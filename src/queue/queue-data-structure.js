@@ -18,7 +18,7 @@ class Queue {
       throw new Error("QUEUE_OVERFLOW");
     }
 
-    return this.queueControl
+    return this.queueControl;
   }
 
   dequeue() {
@@ -29,7 +29,7 @@ class Queue {
   }
 
   display() {
-    return this.queueControl
+    return this.queueControl;
   }
 }
 
